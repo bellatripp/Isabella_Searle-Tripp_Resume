@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: RGB(172, 218, 202, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .leftSide {
+    position: relative;
+    background: RGB(53, 121, 96, 1);
+    padding: 40px;
+}
+
+.profileContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileContent .profileImgBox {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileContent .profileImgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileContent h2 {
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 520;
+    line-height: 1.4em;
+}
+
+.profileContent h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.contactInfo .title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 520;
+    letter-spacing: 0.8px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.contactInfo ul {
+    position: relative;
+
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(158, 206, 189, 1);
+}
+.gitHubLink {
+    color: white;
+}
+
+.contactInfo ul li span {
+    color: white;
+    font-weight: 300;
+}
+
+.contactInfo.education li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h5 {
+    color: rgb(158, 206, 189, 1);
+}
+
+.contactInfo.education h4:nth-child(2) {
+    color: white;
+    font-weight: 700;
+}
+
+.contactInfo.education h4 {
+    color: white;
+    font-weight: 500;
+}
+
+.container .rightSide {
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+
+}
+
+.title2 {
+    color: RGB(53, 121, 96, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about p{
+    color: rgb(38, 84, 68, 1);
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .yearExperience {
+    min-width: 150px;
+}
+
+.about .box .yearExperience h5 {
+    text-transform: uppercase;
+    color: rgb(95, 117, 109, 1);
+    font-weight: 600;
+}
+
+.about .box .text h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(59, 141, 111);
+}
+
+.about.skills .box .text {
+    color: rgb(38, 84, 68, 1);
+}
+
+.about.skills .box li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+
+
