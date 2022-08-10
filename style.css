@@ -24,13 +24,14 @@ body {
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
-
+/* -------------> Code for all of the styling of the content on the left hand side of the page <------------ */
 .container .leftSide {
     position: relative;
     background: RGB(53, 121, 96, 1);
     padding: 40px;
 }
 
+/* Styling for the top section of the left-hand side of the resume */
 .profileContent {
     position: relative;
     display: flex;
@@ -72,6 +73,7 @@ body {
     font-weight: 300;
 }
 
+/* Styling for contact info div */
 .contactInfo {
     padding-top: 40px;
 }
@@ -102,6 +104,7 @@ body {
     font-size: 18px;
     color: rgb(158, 206, 189, 1);
 }
+
 .gitHubLink {
     color: white;
 }
@@ -129,12 +132,14 @@ body {
     font-weight: 500;
 }
 
+/* ---------------> Code for all of the styling of the content on the left hand side of the page <--------------- */
 .container .rightSide {
     position: relative;
     background: white;
     padding: 40px;
 }
 
+/* code for the Profile section */
 .about {
     margin-bottom: 50px;
 }
@@ -161,6 +166,7 @@ body {
     margin: 20px 0;
 }
 
+/* Styling for the work Experience section */
 .about .box .yearExperience {
     min-width: 150px;
 }
@@ -177,6 +183,7 @@ body {
     color: rgb(59, 141, 111);
 }
 
+/* Code for the Professional Skills section */
 .about.skills .box .text {
     color: rgb(38, 84, 68, 1);
 }
@@ -186,6 +193,7 @@ body {
     margin-bottom: 15px;
 }
 
+/* Code for the Previous Projects section */
 .about.projects .box h4 {
     text-transform: uppercase;
     font-size: 16px;
